@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Aryan Sood" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Aryan Sood">Aryan Sood</h1>
+
+          <p class="title">AI engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:007aryansood@gmail.com" class="contact-link">007aryansood@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+919560872552" class="contact-link">+91 95608 72552</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2005-07-05">July 5, 2005</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Delhi, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://linkedin.com/in/soodaryan" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/_soodaryan/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/soodaryan" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li> -->
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Computer Science undergrad at DTU, specializing in Deep Learning, Computer Vision, Generative AI, 
+            and RAG architectures, with a passion for creating intelligent systems that integrate vision, language, and reasoning.
+          </p>
+
+          <p>
+            Interested in scalable, explainable AI solutions, with previous work spanning multimodal fact verification,
+            RAG agents, physics modeling, and bidding optimization
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="ai engineering icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI Engineering</h4>
+
+                <p class="service-item-text">
+                  Creating smart and adaptive systems that learn from data and enhance real-world applications.
+
+                </p>
+              </div>
+
+            </li>
+            
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="Research icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Deep Learning Research</h4>
+
+                <p class="service-item-text">
+                  Exploring LLMs, Knowledge Graph RAGs, embedders, KANs, GANs, and much more—always curious, always experimenting.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="backend development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Backend Development** </h4>
+
+                <p class="service-item-text">
+                  Building the backbone of applications. (**Learning more and more everyday)
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Digital Art & Photography  </h4>
+
+                <p class="service-item-text">
+                  Expressing ideas through digital art on Procreate and telling stories through the lens.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Awards and Recognition</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="department rank" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title> Academic Excellence</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Department Rank 2 - I’ve always been driven by curiosity and a love for learning, 
+                    which helped me maintain a 9.8 CGPA and earn the Department Rank 2 in the Computer Engineering branch at DTU. 
+                    It’s something I’m proud of, not just for the numbers, but for the effort and consistency behind them.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="7x Hackathon Winner" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>7x Hackathon Winner</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I’ve won 7+ national hackathons, each one sharpening my skills in problem-solving, leadership, and teamwork. 
+                    They taught me not just how to build fast, but how to collaborate, listen, and lead with purpose.
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Research Projects" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Research Projects</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I’ve worked on research projects like PIKA-GAN and SAR image enhancement, diving 
+                    into symbolic learning and satellite image restoration. It’s been a great way to 
+                    explore how deep learning can solve complex, real-world problems.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+<!-- 
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li> -->
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Aryan</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Aryan
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div> 
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Technologies</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="https://www.python.org/">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" height="100">
+              </a>
+            </li>
+
+
+            <li class="clients-item">
+              <a href="https://pytorch.org/">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch" height="100">
+  </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.tensorflow.org/""">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" height="100">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://streamlit.io/">
+                <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/streamlit.svg" alt="Streamlit" height="100">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.langchain.com/">
+                <img src="https://avatars.githubusercontent.com/u/139944031?s=200&v=4" alt="LangChain" height="100">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://github.com/langchain-ai/langgraph">
+                <img src="https://avatars.githubusercontent.com/u/149220129?s=200&v=4" alt="Neo4j" height="100">
+              </a>
+            
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Delhi Technological University (formerly DCE)</h4>
+
+              <span>2023 — 2027</span>
+
+              <p class="timeline-text">
+                CSE Branch - Department Rank: 2 (9.8 CGPA) <br>
+                Secured top grades in ML, OS, SE, DBMS, OOPs, ADA, DSA, and Discrete Structures.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Amity International School, Mayur Vihar</h4>
+
+              <span>2021 — 2023</span>
+
+              <p class="timeline-text">
+                Grade: 96.2% in class 12 Boards with 99 in Mathematics (School Subject topper)<br>
+                GTSE rank 4 : 2023 - PCM <br>
+                GTSE rank 15 : 2022 - PCM
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Amity International School, Noida Sector - 44</h4>
+
+              <span>2002 — 2004</span>
+
+              <p class="timeline-text">
+                Scored 98.2% in Grade 10 Boards and served as House Prefect. <br>
+                Gold Medalist in the International Hindi Olympiad.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+        
+            <h3 class="h3">Experience</h3>
+          </div>
+        
+          <ol class="timeline-list">
+        
+            <li class="timeline-item">
+        
+              <h4 class="h4 timeline-item-title">AI Engineering Intern, Matiks</h4>
+        
+              <span>Nov 2024 — Jan 2025</span>
+        
+              <p class="timeline-text">
+                Engineered a math problem-solving pipeline, improving retrieval precision by 30% via refined categorization and hybrid search. Scaled high-complexity problem generation using 50+ curated datasets.
+              </p>
+        
+            </li>
+        
+            <li class="timeline-item">
+        
+              <h4 class="h4 timeline-item-title">Deep Learning Intern, Devnex Technologies</h4>
+        
+              <span>Sep 2024 — Nov 2024</span>
+        
+              <p class="timeline-text">
+                Led optimization of apparel masking using SAM2, Flux, and CLIP—doubling accuracy and reducing manual effort by 50%. Developed and tested image-to-video pipelines with 20+ models for enhanced efficiency.
+              </p>
+        
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Research Intern, MLR Lab, DTU</h4>
+        
+              <span>May 2024 — August 2024</span>
+        
+              <p class="timeline-text">
+                Explored multimodal transformer architectures and vision-language models (VLMs) for semantic understanding tasks. Contributed to model evaluation and benchmarking for document and image-based retrieval systems.
+              </p>
+        
+            </li>
+        
+        
+          </ol>
+        
+        </section>
+
+<!--         
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web design</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Graphic design</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Branding</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">WordPress</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section> -->
+
+      
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="ribbon-outline"></ion-icon>
+            </div>
+        
+            <h3 class="h3">Certifications</h3>
+          </div>
+        
+          <ol class="timeline-list">
+        
+            <li class="timeline-item">
+        
+              <h4 class="h4 timeline-item-title">Knowledge Graphs for RAG – DeepLearning.AIs</h4>
+        
+              <span>April 2024</span>
+
+              <p class="timeline-text">
+                Built semantic RAG systems using knowledge graphs, embeddings, and retrieval augmentation techniques.
+                <a href="https://learn.deeplearning.ai/accomplishments/7837760d-3aad-4348-b74b-a43a3dbfc6a1" target="_blank">
+                  (Link)
+                </a>
+              </p>
+        
+            </li>
+        
+            <li class="timeline-item">
+        
+              <h4 class="h4 timeline-item-title">Agentic RAG – DeepLearning.AI</h4>
+        
+              <span>Feb 2024</span>
+              <p class="timeline-text">
+                Learned to construct multi-step agentic retrieval systems with LangChain and LLM orchestration.
+                <a href="https://learn.deeplearning.ai/accomplishments/6326fa0f-34a4-4993-af4e-95f510be441d" target="_blank">
+                  (Link)
+                </a>
+              </p>
+        
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Deep Learning Specialization – DeepLearning.AI</h4>
+        
+              <span>Dec 2024</span>
+        
+              <p class="timeline-text">
+                Focused on CNNs, RNNs, optimization, and hyperparameter tuning using TensorFlow and PyTorch.
+                <a href="https://coursera.org/share/e49b4bc97c5e86ce126358ed65675793" target="_blank">
+                (Link)
+                </a>
+              </p>
+        
+            </li>
+
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Machine Learning Specialization – DeepLearning.AI</h4>
+        
+              <span>Oct 2023</span>
+        
+              <p class="timeline-text">
+                Focused on CNNs, RNNs, optimization, and hyperparameter tuning using TensorFlow and PyTorch.
+                <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/AFXX9H8U5PGL" target="_blank">
+                  (Link)
+                </a>
+              </p>
+        
+            </li>
+        
+          </ol>
+        
+        </section>
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <!-- <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul> -->
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://github.com/soodaryan/TruthLens">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">TruthLens - Fact Verification</h3>
+
+                <p class="project-category">Knowledge Graph RAG</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://devfolio.co/projects/stockxpert-dd5a">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">StockXpert</h3>
+
+                <p class="project-category">RAG and Web Scrapping</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/soodaryan/Music-Recommender-System">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Music Recommender System</h3>
+
+                <p class="project-category">Recommendation Models</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">PIKA-GAN</h3>
+
+                <p class="project-category">Physics-Inspired KAN based GAN architecture</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://github.com/soodaryan/AI-Driven-Personalized-Path-Generation-Recommendations">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Personalised Career Path Generation</h3>
+
+                <p class="project-category">RAG and Recommendation Models</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://github.com/soodaryan/MultiModalRAG">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Multi-Modal RAG</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/soodaryan/LLM_inference_optimization">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">LLM Inference Optimization</h3>
+
+                <p class="project-category">NLP - Inference Optimization</p>
+
+              </a>
+            </li>
+<!-- 
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li> -->
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448193.9510154879!2d76.7635747930484!3d28.644287356958795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1746996999374!5m2!1sen!2sin"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
