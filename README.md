@@ -20,7 +20,7 @@ This portfolio is designed to provide a quick overview of who I am as a develope
 
 ## Live Demo
 
-Check out the live website here: [link](https://aryansood.vercel.app/))
+Check out the live website here: [link](https://aryansood.vercel.app/)
 
 ## Getting Started
 
