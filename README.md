@@ -38,7 +38,6 @@ To run this website locally:
 ## Folder Structure
 
 ```
-/
 ├── assets/             # Images, icons, and other media
 ├── index.html          # Main webpage
 ├── temp.html           # Temporary/testing page
