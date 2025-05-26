@@ -16,7 +16,11 @@ This portfolio is designed to provide a quick overview of who I am as a develope
 
 ## Live Demo
 
-Check out the live website here: [Your Portfolio Website Link]([https://your-portfolio-link.com](https://aryansood.vercel.app/))
+Check out the live website here: [link](https://aryansood.vercel.app/))
+
+<p align="center">
+  <img src="https://ibb.co/pBJJvszk" alt="website" width="300" />
+</p>
 
 *(Replace the URL above with your actual deployed site URL)*
 
