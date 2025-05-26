@@ -6,6 +6,10 @@ Welcome to my personal portfolio website repository! This website showcases my p
 
 This portfolio is designed to provide a quick overview of who I am as a developer and the work I've done so far. It is built with HTML, CSS, and JavaScript, and designed to be responsive across devices.
 
+<p align="center">
+  <img src="https://i.ibb.co/4nPPZDT0/Screenshot-2025-05-27-at-3-28-47-AM.png" alt="website"/>
+</p>
+
 ## Features
 
 - About Me section
@@ -17,10 +21,6 @@ This portfolio is designed to provide a quick overview of who I am as a develope
 ## Live Demo
 
 Check out the live website here: [link](https://aryansood.vercel.app/))
-
-<p align="center">
-  <img src="https://i.ibb.co/4nPPZDT0/Screenshot-2025-05-27-at-3-28-47-AM.png" alt="website"/>
-</p>
 
 ## Getting Started
 
