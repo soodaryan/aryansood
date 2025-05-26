@@ -19,7 +19,7 @@ This portfolio is designed to provide a quick overview of who I am as a develope
 Check out the live website here: [link](https://aryansood.vercel.app/))
 
 <p align="center">
-  <img src="https://ibb.co/pBJJvszk" alt="website" width="300" />
+  <img src="https://i.ibb.co/4nPPZDT0/Screenshot-2025-05-27-at-3-28-47-AM.png" alt="website" width="300" />
 </p>
 
 *(Replace the URL above with your actual deployed site URL)*
