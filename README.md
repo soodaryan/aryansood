@@ -54,9 +54,4 @@ Feel free to reach out via email or social media for collaborations or inquiries
 
 Thank you for visiting my portfolio!
 
----
-
-*Aryan Sood*
-
-```
 
