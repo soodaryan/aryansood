@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Aryan Sood Portfolio</title>
+  <title>Aryan Sood | AI/ML Portfolio</title>
 
   <!--
     - favicon
@@ -64,6 +64,11 @@
 
         <div class="separator"></div>
 
+        <aside class="resume-quick-access sidebar-quick-access" aria-label="Resume quick access" data-resume-quick-wrapper>
+          <span>Quick access</span>
+          <nav data-resume-quick-access></nav>
+        </aside>
+
         <ul class="contacts-list">
 
           <li class="contact-item">
@@ -90,20 +95,6 @@
               <p class="contact-title">Phone</p>
 
               <a href="tel:+919560872552" class="contact-link">+91 95608 72552</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="2005-07-05">July 5, 2005</time>
             </div>
 
           </li>
@@ -179,6 +170,14 @@
           </li>
 
           <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Hackathons</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Research</button>
+          </li>
+
+          <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Portfolio</button>
           </li>
 
@@ -205,18 +204,19 @@
       <article class="about  active" data-page="about">
 
         <header>
-          <h2 class="h2 article-title">About me</h2>
+          <h2 class="h2 article-title">What I am building toward</h2>
         </header>
 
         <section class="about-text">
           <p>
-            Computer Science undergrad at DTU, specializing in Deep Learning, Computer Vision, Generative AI, 
-            and RAG architectures, with a passion for creating intelligent systems that integrate vision, language, and reasoning.
+            I am Aryan, a Computer Science undergrad at DTU, currently Department Rank 1 with a 9.88 CGPA.
+            Most of my work is around AI/ML systems that have to work outside a notebook: agents, RAG, computer vision, ML infrastructure, and research prototypes that can be measured.
           </p>
 
           <p>
-            Interested in scalable, explainable AI solutions, with previous work spanning multimodal fact verification,
-            RAG agents, physics modeling, and bidding optimization
+            LinkedIn gave me large-scale engineering. Startups gave me speed. Research gave me a taste for problems where the model has to respect structure: physics-informed learning, KANs, masked diffusion LMs, and SAR restoration.
+            I am aiming for AI/ML research, applied scientist, and ML infrastructure roles.
+          </p>
         </section>
 
 
@@ -226,7 +226,7 @@
 
         <section class="service">
 
-          <h3 class="h3 service-title">What i'm doing</h3>
+          <h3 class="h3 service-title">Problems I like working on</h3>
 
           <ul class="service-list">
 
@@ -237,16 +237,15 @@
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">AI Engineering</h4>
+                <h4 class="h4 service-item-title">Agentic ML Systems</h4>
 
                 <p class="service-item-text">
-                  Creating smart and adaptive systems that learn from data and enhance real-world applications.
-
+                  Classification pipelines, RAG, evaluation, adjudication, and observability for production AI systems.
                 </p>
               </div>
 
             </li>
-            
+
             <li class="service-item">
 
               <div class="service-icon-box">
@@ -255,10 +254,10 @@
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Deep Learning Research</h4>
+                <h4 class="h4 service-item-title">Research</h4>
 
                 <p class="service-item-text">
-                  Exploring LLMs, Knowledge Graph RAGs, embedders, KANs, GANs, and much more—always curious, always experimenting.
+                  Physics-informed models, KAN-based GANs, masked diffusion LMs, SAR denoising, and SAR colorization.
                 </p>
               </div>
 
@@ -271,10 +270,10 @@
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Backend Development** </h4>
+                <h4 class="h4 service-item-title">ML Infrastructure</h4>
 
                 <p class="service-item-text">
-                  Building the backbone of applications. (**Learning more and more everyday)
+                  Ray, Flyte, multi-LLM workflows, cloud pipelines, model routing, and latency-aware systems.
                 </p>
               </div>
 
@@ -287,10 +286,10 @@
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Digital Art & Photography  </h4>
+                <h4 class="h4 service-item-title">Computer Vision</h4>
 
                 <p class="service-item-text">
-                  Expressing ideas through digital art on Procreate and telling stories through the lens.
+                  VLMs, OCR-based UI automation, segmentation, apparel masking, diffusion workflows, and remote sensing.
                 </p>
               </div>
 
@@ -307,7 +306,7 @@
 
         <section class="testimonials">
 
-          <h3 class="h3 testimonials-title">Awards and Recognition</h3>
+          <h3 class="h3 testimonials-title">Signals worth noticing</h3>
 
           <ul class="testimonials-list has-scrollbar">
 
@@ -318,13 +317,12 @@
                   <img src="./assets/images/avatar-1.png" alt="department rank" width="60" data-testimonials-avatar>
                 </figure>
 
-                <h4 class="h4 testimonials-item-title" data-testimonials-title> Academic Excellence</h4>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Academic strength</h4>
 
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
-                    Department Rank 2 - I’ve always been driven by curiosity and a love for learning, 
-                    which helped me maintain a 9.8 CGPA and earn the Department Rank 2 in the Computer Engineering branch at DTU. 
-                    It’s something I’m proud of, not just for the numbers, but for the effort and consistency behind them.
+                    I am Department Rank 1 in DTU CSE with a 9.88 CGPA and University Rank 2.
+                    I have kept the transcript strong while building outside coursework.
                   </p>
                 </div>
 
@@ -338,12 +336,13 @@
                   <img src="./assets/images/avatar-2.png" alt="7x Hackathon Winner" width="60" data-testimonials-avatar>
                 </figure>
 
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>7x Hackathon Winner</h4>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>7x hackathon winner</h4>
 
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
-                    I’ve won 7+ national hackathons, each one sharpening my skills in problem-solving, leadership, and teamwork. 
-                    They taught me not just how to build fast, but how to collaborate, listen, and lead with purpose.
+                    7-time national hackathon winner, including Smart India Hackathon 2025 and Code Cubicle 2.0 at Microsoft.
+                    Also placed 2nd in Adobe Devcraft's real-time bidding challenge.
+                  </p>
                 </div>
 
               </div>
@@ -356,39 +355,18 @@
                   <img src="./assets/images/avatar-4.png" alt="Research Projects" width="60" data-testimonials-avatar>
                 </figure>
 
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Research Projects</h4>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Research under review</h4>
 
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
-                    I’ve worked on research projects like PIKA-GAN and SAR image enhancement, diving 
-                    into symbolic learning and satellite image restoration. It’s been a great way to 
-                    explore how deep learning can solve complex, real-world problems.
+                    Current research includes PIKA-GAN under review in a NeurIPS workshop verifier track,
+                    CorruptLoRA for masked diffusion LMs, and SAR denoising/colorization with GANs.
                   </p>
                 </div>
 
               </div>
             </li>
-<!-- 
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
 
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li> -->
 
           </ul>
 
@@ -421,7 +399,7 @@
 
               <h4 class="h3 modal-title" data-modal-title>Aryan</h4>
 
-              <time datetime="2021-06-14">14 June, 2021</time>
+              <time datetime="2021-06-14" data-modal-meta>14 June, 2021</time>
 
               <div data-modal-text>
                 <p>
@@ -433,7 +411,7 @@
 
           </section>
 
-        </div> 
+        </div>
 
 
         <!--
@@ -442,7 +420,7 @@
 
         <section class="clients">
 
-          <h3 class="h3 clients-title">Technologies</h3>
+          <h3 class="h3 clients-title">Tools I reach for</h3>
 
           <ul class="clients-list has-scrollbar">
 
@@ -460,7 +438,7 @@
             </li>
 
             <li class="clients-item">
-              <a href="https://www.tensorflow.org/""">
+              <a href="https://www.tensorflow.org/">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" height="100">
               </a>
             </li>
@@ -481,7 +459,7 @@
               <a href="https://github.com/langchain-ai/langgraph">
                 <img src="https://avatars.githubusercontent.com/u/149220129?s=200&v=4" alt="Neo4j" height="100">
               </a>
-            
+
             </li>
 
           </ul>
@@ -501,10 +479,27 @@
       <article class="resume" data-page="resume">
 
         <header>
-          <h2 class="h2 article-title">Resume</h2>
+          <h2 class="h2 article-title">Timeline</h2>
         </header>
 
-        <section class="timeline">
+        <section class="resume-highlights">
+          <div>
+            <span>CGPA</span>
+            <strong>9.88</strong>
+          </div>
+
+          <div>
+            <span>Internships</span>
+            <strong>6</strong>
+          </div>
+
+          <div>
+            <span>Hackathons</span>
+            <strong>7x winner</strong>
+          </div>
+        </section>
+
+        <section class="timeline" id="resume-education" data-resume-section>
 
           <div class="title-wrapper">
             <div class="icon-box">
@@ -516,43 +511,97 @@
 
           <ol class="timeline-list">
 
-            <li class="timeline-item">
+            <li class="timeline-item education-feature">
 
-              <h4 class="h4 timeline-item-title">Delhi Technological University (formerly DCE)</h4>
+              <div class="education-card-head">
+                <div>
+                  <h4 class="h4 timeline-item-title"><span aria-hidden="true" class="org-logo"><img src="./assets/images/org-dtu.png" alt=""></span>Delhi Technological University (formerly DCE)</h4>
 
-              <span>2023 — 2027</span>
+                  <span>2023 - 2027</span>
+                </div>
+
+                <div class="rank-badge">
+                  <span>Department</span>
+                  <strong>Rank 1</strong>
+                  <button class="transcript-btn" type="button" data-transcript-open aria-haspopup="dialog" aria-controls="transcript-modal">
+                    View semesters
+                  </button>
+                </div>
+              </div>
 
               <p class="timeline-text">
-                CSE Branch - Department Rank: 2 (9.8 CGPA) <br>
-                Secured top grades in ML, OS, SE, DBMS, OOPs, ADA, DSA, and Discrete Structures.
+                B.Tech in Computer Science, Minor in AI and ML. CGPA 9.88, University Rank 2.
               </p>
+
+              <div class="semester-strip" aria-label="Semester-wise CGPA">
+                <div>
+                  <span>Sem 1</span>
+                  <strong>9.80</strong>
+                </div>
+
+                <div>
+                  <span>Sem 2</span>
+                  <strong>9.80</strong>
+                </div>
+
+                <div>
+                  <span>Sem 3</span>
+                  <strong>9.83</strong>
+                </div>
+
+                <div>
+                  <span>Sem 4</span>
+                  <strong>9.82</strong>
+                </div>
+
+                <div>
+                  <span>Sem 5</span>
+                  <strong>10.00</strong>
+                </div>
+
+                <div>
+                  <span>Sem 6</span>
+                  <strong>10.00</strong>
+                </div>
+              </div>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Amity International School, Mayur Vihar</h4>
-
-              <span>2021 — 2023</span>
+              <div class="timeline-card-head">
+                <h4 class="h4 timeline-item-title"><span aria-hidden="true" class="org-logo org-logo-amity"><img src="./assets/images/org-amity.png" alt=""></span>Amity International School, Mayur Vihar, Delhi</h4>
+                <span>2021 - 2023</span>
+              </div>
 
               <p class="timeline-text">
-                Grade: 96.2% in class 12 Boards with 99 in Mathematics (School Subject topper)<br>
-                GTSE rank 4 : 2023 - PCM <br>
-                GTSE rank 15 : 2022 - PCM
+                PCM with Computer Science. Class XII: 96.2%, with 99 in Mathematics as school subject topper.
               </p>
+
+              <ul class="education-points">
+                <li>GTSE Rank 4 in 2023, PCM</li>
+                <li>GTSE Rank 15 in 2022, PCM</li>
+                <li>Ex-VMCian</li>
+              </ul>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Amity International School, Noida Sector - 44</h4>
-
-              <span>2002 — 2004</span>
+              <div class="timeline-card-head">
+                <h4 class="h4 timeline-item-title"><span aria-hidden="true" class="org-logo org-logo-amity"><img src="./assets/images/org-amity.png" alt=""></span>Amity International School, Noida Sector 44</h4>
+                <span>2009 - 2021</span>
+              </div>
 
               <p class="timeline-text">
-                Scored 98.2% in Grade 10 Boards and served as House Prefect. <br>
-                Gold Medalist in the International Hindi Olympiad.
+                Class X: 98.2%. House Prefect and subject topper in Mathematics, Science, and Social Science.
               </p>
+
+              <ul class="education-points">
+                <li>99 in Hindi Language</li>
+                <li>International Hindi Olympiad gold medal, Grade 10</li>
+                <li>National Hindi Olympiad bronze medal, Grade 9</li>
+              </ul>
 
             </li>
 
@@ -560,60 +609,122 @@
 
         </section>
 
-        <section class="timeline">
+        <div class="modal-container transcript-modal-container" id="transcript-modal" data-transcript-modal-container>
+
+          <div class="overlay" data-transcript-overlay></div>
+
+          <section class="testimonials-modal transcript-modal">
+
+            <button class="modal-close-btn" data-transcript-modal-close>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title">DTU semester record</h4>
+
+              <p class="transcript-note">
+                B.Tech CSE with Minor in AI and ML. Current CGPA 9.88, Department Rank 1, University Rank 2.
+              </p>
+
+              <div class="result-card-grid">
+                <div><span>Sem 1</span><strong>9.80</strong></div>
+                <div><span>Sem 2</span><strong>9.80</strong></div>
+                <div><span>Sem 3</span><strong>9.83</strong></div>
+                <div><span>Sem 4</span><strong>9.82</strong></div>
+                <div><span>Sem 5</span><strong>10.00</strong></div>
+                <div><span>Sem 6</span><strong>10.00</strong></div>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+        <section class="timeline" id="resume-internships" data-resume-section>
 
           <div class="title-wrapper">
             <div class="icon-box">
               <ion-icon name="book-outline"></ion-icon>
             </div>
-        
-            <h3 class="h3">Experience</h3>
+
+            <h3 class="h3">Internships and work</h3>
           </div>
-        
+
           <ol class="timeline-list">
-        
+
             <li class="timeline-item">
-        
-              <h4 class="h4 timeline-item-title">AI Engineering Intern, Matiks</h4>
-        
-              <span>Nov 2024 — Jan 2025</span>
-        
+
+              <div class="timeline-card-head">
+                <h4 class="h4 timeline-item-title"><span aria-hidden="true" class="org-logo"><img src="./assets/images/org-linkedin.png" alt=""></span>Software Engineering Intern, LinkedIn</h4>
+                <span>May 2026 - Aug 2026</span>
+              </div>
+
               <p class="timeline-text">
-                Engineered a math problem-solving pipeline, improving retrieval precision by 30% via refined categorization and hybrid search. Scaled high-complexity problem generation using 50+ curated datasets.
+                Worked with Trust Content Moderation AI/ML. Built an agentic classification pipeline for 100K+ multimodal posts each week, fine-tuned Qwen-32B, worked on VLM policy classification, and helped move distributed LLM workloads from Flyte to Ray.
               </p>
-        
-            </li>
-        
-            <li class="timeline-item">
-        
-              <h4 class="h4 timeline-item-title">Deep Learning Intern, Devnex Technologies</h4>
-        
-              <span>Sep 2024 — Nov 2024</span>
-        
-              <p class="timeline-text">
-                Led optimization of apparel masking using SAM2, Flux, and CLIP—doubling accuracy and reducing manual effort by 50%. Developed and tested image-to-video pipelines with 20+ models for enhanced efficiency.
-              </p>
-        
+
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Research Intern, MLR Lab, DTU</h4>
-        
-              <span>May 2024 — August 2024</span>
-        
+              <div class="timeline-card-head">
+                <h4 class="h4 timeline-item-title"><span aria-hidden="true" class="org-logo"><img src="./assets/images/org-ramain.png" alt=""></span>CV Platforms Intern, Ramain.ai</h4>
+                <span>Jan 2026 - Mar 2026</span>
+              </div>
+
               <p class="timeline-text">
-                Explored multimodal transformer architectures and vision-language models (VLMs) for semantic understanding tasks. Contributed to model evaluation and benchmarking for document and image-based retrieval systems.
+                Built screenshot-understanding workflows with Gemini OCR: text boxes, nearby labels, grouped UI regions, and actions that could fill forms end to end.
               </p>
-        
+
             </li>
-        
-        
+
+            <li class="timeline-item">
+
+              <div class="timeline-card-head">
+                <h4 class="h4 timeline-item-title"><span aria-hidden="true" class="org-logo"><img src="./assets/images/org-maven.png" alt=""></span>AI Intern, Maven Finance AI</h4>
+                <span>Nov 2025 - Jan 2026</span>
+              </div>
+
+              <p class="timeline-text">
+                Built RAG over OneDrive files and Outlook emails for finance users. Worked on retrieval quality, token use, latency, and OpenTelemetry traces for debugging.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <div class="timeline-card-head">
+                <h4 class="h4 timeline-item-title"><span aria-hidden="true" class="org-logo"><img src="./assets/images/org-matiks.png" alt=""></span>AI Engineer Intern, Matiks</h4>
+                <span>Nov 2024 - Aug 2025</span>
+              </div>
+
+              <p class="timeline-text">
+                Built math generation and solving systems for 10K+ daily active users. Worked on multi-LLM difficulty ranking across 30+ datasets, hybrid search, SymPy validation, and lower-cost generation.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <div class="timeline-card-head">
+                <h4 class="h4 timeline-item-title"><span aria-hidden="true" class="org-logo"><img src="./assets/images/org-devnex.png" alt=""></span>Deep Learning Intern, Devnex Technologies</h4>
+                <span>Oct 2024 - Jan 2025</span>
+              </div>
+
+              <p class="timeline-text">
+                Worked on apparel masking and image generation with SAM, Grounding DINO, FLUX, Stable Diffusion, and ComfyUI. Reduced masking and generation time from 5 seconds to 1.5 seconds.
+              </p>
+
+            </li>
+
+
           </ol>
-        
+
         </section>
 
-<!--         
+<!--
         <section class="skill">
 
           <h3 class="h3 skills-title">My skills</h3>
@@ -676,23 +787,75 @@
 
         </section> -->
 
-      
-        <section class="timeline">
+        <section class="timeline" id="resume-leadership" data-resume-section>
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="people-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Leadership</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"><span aria-hidden="true" class="org-logo"><img src="./assets/images/org-acm.png" alt=""></span>Coordinator, Artificial Intelligence - ACM DTU Student Chapter</h4>
+
+              <span>Jan 2026 - Present</span>
+
+              <p class="timeline-text">
+                Coordinate AI work and student learning inside ACM DTU: practical ML, projects, and peer mentoring.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"><span aria-hidden="true" class="org-logo"><img src="./assets/images/org-aims.png" alt=""></span>Joint Secretary, AI & ML Society (AIMS), DTU</h4>
+
+              <span>Jun 2025 - Present</span>
+
+              <p class="timeline-text">
+                Mentored students in NLP, agentic workflows, and ML fundamentals. Helped organize BrAInwave 2.0 and led a team that won Smart India Hackathon 2025.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"><span aria-hidden="true" class="org-logo"><img src="./assets/images/org-dtu.png" alt=""></span>Co-head, Technical Council, DTU</h4>
+
+              <span>Aug 2024 - Dec 2025</span>
+
+              <p class="timeline-text">
+                Organized and managed 14+ hackathons during Invictus, DTU's annual tech fest.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+
+        <section class="timeline" id="resume-courses" data-resume-section>
 
           <div class="title-wrapper">
             <div class="icon-box">
               <ion-icon name="ribbon-outline"></ion-icon>
             </div>
-        
-            <h3 class="h3">Certifications</h3>
+
+            <h3 class="h3">Courses I found useful</h3>
           </div>
-        
+
           <ol class="timeline-list">
-        
+
             <li class="timeline-item">
-        
-              <h4 class="h4 timeline-item-title">Knowledge Graphs for RAG – DeepLearning.AIs</h4>
-        
+
+              <h4 class="h4 timeline-item-title">Knowledge Graphs for RAG - DeepLearning.AI</h4>
+
               <span>April 2024</span>
 
               <p class="timeline-text">
@@ -701,13 +864,13 @@
                   (Link)
                 </a>
               </p>
-        
+
             </li>
-        
+
             <li class="timeline-item">
-        
-              <h4 class="h4 timeline-item-title">Agentic RAG – DeepLearning.AI</h4>
-        
+
+              <h4 class="h4 timeline-item-title">Agentic RAG - DeepLearning.AI</h4>
+
               <span>Feb 2024</span>
               <p class="timeline-text">
                 Learned to construct multi-step agentic retrieval systems with LangChain and LLM orchestration.
@@ -715,43 +878,291 @@
                   (Link)
                 </a>
               </p>
-        
+
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Deep Learning Specialization – DeepLearning.AI</h4>
-        
+              <h4 class="h4 timeline-item-title">Deep Learning Specialization - DeepLearning.AI</h4>
+
               <span>Dec 2024</span>
-        
+
               <p class="timeline-text">
                 Focused on CNNs, RNNs, optimization, and hyperparameter tuning using TensorFlow and PyTorch.
                 <a href="https://coursera.org/share/e49b4bc97c5e86ce126358ed65675793" target="_blank">
                 (Link)
                 </a>
               </p>
-        
+
             </li>
 
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Machine Learning Specialization – DeepLearning.AI</h4>
-        
+              <h4 class="h4 timeline-item-title">Machine Learning Specialization - DeepLearning.AI</h4>
+
               <span>Oct 2023</span>
-        
+
               <p class="timeline-text">
                 Focused on CNNs, RNNs, optimization, and hyperparameter tuning using TensorFlow and PyTorch.
                 <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/AFXX9H8U5PGL" target="_blank">
                   (Link)
                 </a>
               </p>
-        
+
             </li>
-        
+
           </ol>
-        
+
         </section>
+
+        <section class="timeline" id="resume-hackathons" data-resume-section>
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="trophy-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Hackathons</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">7-time National Hackathon Winner</h4>
+
+              <span>ML systems, safety tech, RAG, news, bidding, and reinforcement learning</span>
+
+              <p class="timeline-text">
+                I like hackathons because they force the same loop I enjoy in real work: define the problem, build the model, wrap it in something usable, and defend the tradeoff. Selected named results:
+              </p>
+
+              <ul class="education-points hackathon-points">
+                <li>Smart India Hackathon 2025 - National Winner among 1,000+ teams for an offline and online attendance system using Bluetooth and facial recognition.</li>
+                <li>Code Cubicle 2.0 at Microsoft - National Winner for an ML-based women's safety navigation system.</li>
+                <li>Code4Cause - National Winner for an animated news platform that reached 20+ young users.</li>
+                <li>brAInwave - National Winner for a Groq-powered RAG market analysis system on BSE data, reported at 40% better insight efficiency.</li>
+                <li>Adobe Devcraft - 2nd Place in Adobe D-ALP's real-time bidding challenge with 95% accuracy.</li>
+                <li>Silicon Chip Smackdown, APOGEE '24 - Runner-up for a Q-learning Texas Hold'em poker bot.</li>
+              </ul>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+
+
+      <!--
+        - #HACKATHONS
+      -->
+
+      <article class="hackathons" data-page="hackathons">
+
+        <header>
+          <h2 class="h2 article-title">Hackathons</h2>
+        </header>
+
+        <section class="about-text hackathon-intro">
+          <p>
+            Hackathons have been my fastest way to test ideas under pressure: build the model, ship the product layer, explain the tradeoff, and make it work before the clock runs out.
+          </p>
+        </section>
+
+        <section class="resume-highlights hackathon-highlights">
+          <div>
+            <span>Record</span>
+            <strong>7x winner</strong>
+          </div>
+
+          <div>
+            <span>SIH 2025</span>
+            <strong>1,000+ teams</strong>
+          </div>
+
+          <div>
+            <span>Adobe Devcraft</span>
+            <strong>95% accuracy</strong>
+          </div>
+        </section>
+
+        <section class="timeline hackathon-timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="trophy-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Named wins and placements</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Smart India Hackathon 2025 - National Winner</h4>
+
+              <span>Attendance monitoring / 1,000+ competing teams</span>
+
+              <p class="timeline-text">
+                Built an end-to-end offline and online attendance monitoring system using Bluetooth and facial recognition.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Code Cubicle 2.0 at Microsoft - National Winner</h4>
+
+              <span>ML-based safety navigation / 200+ teams</span>
+
+              <p class="timeline-text">
+                Developed an ML-based women's safety navigation system and won at Microsoft Office.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Code4Cause - National Winner</h4>
+
+              <span>Animated news platform</span>
+
+              <p class="timeline-text">
+                Shipped an animated news platform designed for younger users, with 20+ early users reported in the resume material.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">brAInwave - National Winner</h4>
+
+              <span>RAG market analysis / 48-hour hackathon</span>
+
+              <p class="timeline-text">
+                Built a Groq-powered RAG market analysis system for BSE data, improving data-insight efficiency by 40% in the resume material.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Adobe Devcraft - 2nd Place</h4>
+
+              <span>Real-time bidding challenge by Adobe's D-ALP team</span>
+
+              <p class="timeline-text">
+                Built the OptiBid real-time bidding pipeline and placed 2nd with 95% accuracy.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Silicon Chip Smackdown, APOGEE '24 - Runner-up</h4>
+
+              <span>Reinforcement learning poker bot</span>
+
+              <p class="timeline-text">
+                Built a Texas Hold'em poker bot using Q-learning.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+
+
+      <!--
+        - #RESEARCH
+      -->
+
+      <article class="research" data-page="research">
+
+        <header>
+          <h2 class="h2 article-title">Research threads</h2>
+        </header>
+
+        <section class="about-text research-summary">
+          <p>
+            My research started with physics-informed neural networks. I later explored KAN-style symbolic modeling, which led into PIKA-GAN.
+            I am most interested in models that expose structure instead of hiding everything inside a black box.
+          </p>
+        </section>
+
+        <section class="timeline research-timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="flask-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">What I have been exploring</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">PIKA-GAN - Physics-Inspired Kolmogorov-Arnold GANs</h4>
+
+              <span>Under review - NeurIPS workshop verifier track</span>
+
+              <p class="timeline-text">
+                Built a physics-informed GAN around KANs for inverse kinematics and simulation. Project materials report 23% lower RMSE and 20% higher stability than PINN baselines.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">CorruptLoRA - Corruption-Guided LoRA for Masked Diffusion LMs</h4>
+
+              <span>Under review - NeurIPS / masked diffusion language models</span>
+
+              <p class="timeline-text">
+                Uses the corruption mask in masked diffusion language models to choose where LoRA residuals are active. The draft reports lower validation loss than random and uniform token selection under the same active-token budget.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">SAR Denoising and Colorization</h4>
+
+              <span>Pix2Pix GAN / PiggyBack GAN style pipelines</span>
+
+              <p class="timeline-text">
+                Worked on SAR image denoising, colorization, and segmentation. Project materials report PSNR 27.68 and 85.64% targeted segmentation accuracy for the SARVA workflow.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">PINNs and PIKAN-style Exploration</h4>
+
+              <span>Physics-informed neural networks and KANs</span>
+
+              <p class="timeline-text">
+                Worked through PINNs and KAN-based symbolic modeling before the current papers. That thread shaped how I think about scientific ML.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
       </article>
 
 
@@ -765,36 +1176,46 @@
       <article class="portfolio" data-page="portfolio">
 
         <header>
-          <h2 class="h2 article-title">Portfolio</h2>
+          <h2 class="h2 article-title">Projects worth opening</h2>
         </header>
+
+        <section class="about-text project-intro">
+          <p>
+            Start with the title and category. Use the info button for a quick project note, then open the card if you want the repo or demo.
+          </p>
+        </section>
 
         <section class="projects">
 
-          <!-- <ul class="filter-list">
+          <ul class="filter-list">
 
             <li class="filter-item">
               <button class="active" data-filter-btn>All</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Web design</button>
+              <button data-filter-btn>Agentic AI</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Applications</button>
+              <button data-filter-btn>Research</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Web development</button>
+              <button data-filter-btn>Computer Vision</button>
             </li>
 
-          </ul> -->
+            <li class="filter-item">
+              <button data-filter-btn>Optimization</button>
+            </li>
+
+          </ul>
 
           <div class="filter-select-box">
 
             <button class="filter-select" data-select>
 
-              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-value" data-select-value>Select category</div>
 
               <div class="select-icon">
                 <ion-icon name="chevron-down"></ion-icon>
@@ -809,15 +1230,19 @@
               </li>
 
               <li class="select-item">
-                <button data-select-item>Web design</button>
+                <button data-select-item>Agentic AI</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Applications</button>
+                <button data-select-item>Research</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Web development</button>
+                <button data-select-item>Computer Vision</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Optimization</button>
               </li>
 
             </ul>
@@ -826,132 +1251,174 @@
 
           <ul class="project-list">
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="https://github.com/soodaryan/TruthLens">
+            <li class="project-item  active" data-filter-item data-category="agentic ai">
+              <div class="project-card">
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                <a class="project-main" href="https://github.com/soodaryan/TruthLens">
 
-                  <img src="./assets/images/project-3.png" alt="fundo" loading="lazy">
-                </figure>
+                  <figure class="project-img">
+                    <img src="./assets/images/project-3.png" alt="TruthLens preview" loading="lazy">
+                  </figure>
 
-                <h3 class="project-title">TruthLens - Fact Verification</h3>
+                  <h3 class="project-title">TruthLens - Multimodal Fact Verification</h3>
 
-                <p class="project-category">Knowledge Graph RAG</p>
+                  <p class="project-category">Knowledge Graph RAG</p>
 
-              </a>
+                </a>
+
+                <button class="project-info-btn" type="button" data-project-info aria-haspopup="dialog" aria-controls="project-info-modal" aria-label="Show TruthLens details">
+                  <ion-icon name="information-circle-outline"></ion-icon>
+                </button>
+
+                <p class="project-description" id="truthlens-details">Knowledge graph + BERT-NLI system for checking multimodal news claims, with 95%+ precision reported in project materials.</p>
+
+              </div>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="https://devfolio.co/projects/stockxpert-dd5a">
+            <li class="project-item  active" data-filter-item data-category="agentic ai">
+              <div class="project-card">
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                <a class="project-main" href="#">
 
-                  <img src="./assets/images/project-1.png" alt="finance" loading="lazy">
-                </figure>
+                  <figure class="project-img">
+                    <img src="./assets/images/project-6.png" alt="Synapse preview" loading="lazy">
+                  </figure>
 
-                <h3 class="project-title">StockXpert</h3>
+                  <h3 class="project-title">Synapse - Agent Knowledge Infrastructure</h3>
 
-                <p class="project-category">RAG and Web Scrapping</p>
+                  <p class="project-category">LangGraph / Neo4j / MCP</p>
 
-              </a>
+                </a>
+
+                <button class="project-info-btn" type="button" data-project-info aria-haspopup="dialog" aria-controls="project-info-modal" aria-label="Show Synapse details">
+                  <ion-icon name="information-circle-outline"></ion-icon>
+                </button>
+
+                <p class="project-description" id="synapse-details">LinkedIn hackathon project that mined merged PRs into 930+ cited knowledge units and auto-resolved 47% of updates.</p>
+
+              </div>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="https://github.com/soodaryan/Music-Recommender-System">
+            <li class="project-item  active" data-filter-item data-category="research">
+              <div class="project-card">
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                <a class="project-main" href="#">
 
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
-                </figure>
+                  <figure class="project-img">
+                    <img src="./assets/images/project-4.png" alt="PIKA-GAN preview" loading="lazy">
+                  </figure>
 
-                <h3 class="project-title">Music Recommender System</h3>
+                  <h3 class="project-title">PIKA-GAN</h3>
 
-                <p class="project-category">Recommendation Models</p>
+                  <p class="project-category">Physics-Informed KAN-GAN</p>
 
-              </a>
+                </a>
+
+                <button class="project-info-btn" type="button" data-project-info aria-haspopup="dialog" aria-controls="project-info-modal" aria-label="Show PIKA-GAN details">
+                  <ion-icon name="information-circle-outline"></ion-icon>
+                </button>
+
+                <p class="project-description" id="pika-gan-details">Under review in a NeurIPS workshop verifier track. Built for inverse kinematics, simulation, and symbolic physics extraction.</p>
+
+              </div>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="research">
+              <div class="project-card">
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                <a class="project-main" href="#">
 
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
-                </figure>
+                  <figure class="project-img">
+                    <img src="./assets/images/project-2.png" alt="CorruptLoRA preview" loading="lazy">
+                  </figure>
 
-                <h3 class="project-title">PIKA-GAN</h3>
+                  <h3 class="project-title">CorruptLoRA</h3>
 
-                <p class="project-category">Physics-Inspired KAN based GAN architecture</p>
+                  <p class="project-category">Masked Diffusion LMs</p>
 
-              </a>
+                </a>
+
+                <button class="project-info-btn" type="button" data-project-info aria-haspopup="dialog" aria-controls="project-info-modal" aria-label="Show CorruptLoRA details">
+                  <ion-icon name="information-circle-outline"></ion-icon>
+                </button>
+
+                <p class="project-description" id="corruptlora-details">Token-gated LoRA for masked diffusion language models. Uses the corruption mask to spend adaptation budget where repair happens.</p>
+
+              </div>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="https://github.com/soodaryan/AI-Driven-Personalized-Path-Generation-Recommendations">
+            <li class="project-item  active" data-filter-item data-category="computer vision">
+              <div class="project-card">
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                <a class="project-main" href="#">
 
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
-                </figure>
+                  <figure class="project-img">
+                    <img src="./assets/images/project-5.png" alt="SARVA preview" loading="lazy">
+                  </figure>
 
-                <h3 class="project-title">Personalised Career Path Generation</h3>
+                  <h3 class="project-title">SARVA - SAR Vision Agent</h3>
 
-                <p class="project-category">RAG and Recommendation Models</p>
+                  <p class="project-category">SAR Denoising / Colorization</p>
 
-              </a>
+                </a>
+
+                <button class="project-info-btn" type="button" data-project-info aria-haspopup="dialog" aria-controls="project-info-modal" aria-label="Show SARVA details">
+                  <ion-icon name="information-circle-outline"></ion-icon>
+                </button>
+
+                <p class="project-description" id="sarva-details">SAR denoising, colorization, and segmentation with Pix2Pix/PiggyBack GAN style workflows.</p>
+
+              </div>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="https://github.com/soodaryan/MultiModalRAG">
+            <li class="project-item  active" data-filter-item data-category="optimization">
+              <div class="project-card">
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                <a class="project-main" href="#">
 
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-                </figure>
+                  <figure class="project-img">
+                    <img src="./assets/images/project-1.png" alt="OptiBid preview" loading="lazy">
+                  </figure>
 
-                <h3 class="project-title">Multi-Modal RAG</h3>
+                  <h3 class="project-title">OptiBid</h3>
 
-                <p class="project-category">Web design</p>
+                  <p class="project-category">Real-Time Bidding</p>
 
-              </a>
+                </a>
+
+                <button class="project-info-btn" type="button" data-project-info aria-haspopup="dialog" aria-controls="project-info-modal" aria-label="Show OptiBid details">
+                  <ion-icon name="information-circle-outline"></ion-icon>
+                </button>
+
+                <p class="project-description" id="optibid-details">CTR/CVR bidding pipeline under 2 ms latency and 512 KB memory constraints. Reported 0.96 AUC-ROC.</p>
+
+              </div>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="https://github.com/soodaryan/LLM_inference_optimization">
+            <li class="project-item  active" data-filter-item data-category="optimization">
+              <div class="project-card">
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                <a class="project-main" href="https://github.com/soodaryan/LLM_inference_optimization">
 
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
+                  <figure class="project-img">
+                    <img src="./assets/images/project-7.png" alt="LLM inference optimization preview" loading="lazy">
+                  </figure>
 
-                <h3 class="project-title">LLM Inference Optimization</h3>
+                  <h3 class="project-title">LLM Inference Optimization</h3>
 
-                <p class="project-category">NLP - Inference Optimization</p>
+                  <p class="project-category">Inference Systems</p>
 
-              </a>
+                </a>
+
+                <button class="project-info-btn" type="button" data-project-info aria-haspopup="dialog" aria-controls="project-info-modal" aria-label="Show LLM inference optimization details">
+                  <ion-icon name="information-circle-outline"></ion-icon>
+                </button>
+
+                <p class="project-description" id="llm-inference-details">Optimization work around serving constraints, evaluation, and efficient inference for language-model systems.</p>
+
+              </div>
             </li>
-<!-- 
+<!--
             <li class="project-item  active" data-filter-item data-category="applications">
               <a href="#">
 
@@ -992,6 +1459,30 @@
 
         </section>
 
+        <div class="modal-container project-modal-container" id="project-info-modal" data-project-modal-container>
+
+          <div class="overlay" data-project-overlay></div>
+
+          <section class="testimonials-modal project-modal">
+
+            <button class="modal-close-btn" data-project-modal-close>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-project-modal-title>Project</h4>
+
+              <div data-project-modal-text>
+                <p></p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
       </article>
 
 
@@ -1002,7 +1493,7 @@
       <article class="contact" data-page="contact">
 
         <header>
-          <h2 class="h2 article-title">Contact</h2>
+          <h2 class="h2 article-title">Let’s talk</h2>
         </header>
 
         <section class="mapbox" data-mapbox>
